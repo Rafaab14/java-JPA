@@ -1,4 +1,4 @@
-package br.com.rafael.jpa.modelo.Conta;
+package br.com.rafael.jpa.modelo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

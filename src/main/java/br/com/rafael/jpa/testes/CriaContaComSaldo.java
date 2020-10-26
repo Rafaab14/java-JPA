@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import br.com.rafael.jpa.modelo.Conta.Conta;
+import br.com.rafael.jpa.modelo.Conta;
 
 public class CriaContaComSaldo {
 	
@@ -31,7 +31,7 @@ public class CriaContaComSaldo {
 		em2.merge(conta);
 		em2.getTransaction().commit();
 		
-		System.out.print("conta");
+		
 		
 
 	}
