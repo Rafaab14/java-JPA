@@ -31,6 +31,7 @@ public class CriaContaComSaldo {
 		em2.merge(conta);
 		em2.getTransaction().commit();
 		
+		System.out.print("conta");
 		
 
 	}
